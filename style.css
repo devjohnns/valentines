@@ -173,13 +173,13 @@ h2 {
 /* Photo positions */
 .photo1 {
   top: 100px;
-  left: 10%;
+  left: 5%;
   animation-delay: 0s;
 }
 
 .photo2 {
   top: 200px;
-  right: 10%;
+  right: 5%;
   animation-delay: 1s;
 }
 
