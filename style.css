@@ -143,7 +143,7 @@ h2 {
    ============================================ */
 .photo-float {
   position: absolute;
-  z-index: 0;
+  z-index: 10;
   animation: float 6s ease-in-out infinite;
 }
 
