@@ -383,83 +383,87 @@ button:hover {
    Mobile Responsiveness
    ============================================ */
 @media (max-width: 768px) {
+  /* Hide floating photos on mobile to avoid overlap */
+  .photo-float {
+    display: none;
+  }
+
+  /* Adjust body padding */
+  body {
+    padding: 1rem 0;
+  }
+
   /* Adjust greeting size for mobile */
   .greeting {
     font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   h1 {
     font-size: 1.8rem;
   }
 
-  /* Adjust floating photos for mobile */
-  .photo-float img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .photo-caption {
-    font-size: 0.85rem;
-  }
-
-  /* Reposition photos for mobile */
-  .photo1 {
-    top: 80px;
-    left: 2%;
-  }
-
-  .photo2 {
-    top: 120px;
-    right: 2%;
-  }
-
-  .photo3 {
-    top: 500px;
-    left: 3%;
-  }
-
-  .photo4 {
-    top: 540px;
-    right: 3%;
+  h2 {
+    font-size: 1.2rem;
   }
 
   /* Adjust main content padding */
   .main-content {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 
   /* Adjust card and text sizes */
-  .card, .apology {
-    font-size: 1rem;
-    padding: 1rem;
+  .card {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .apology {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+    line-height: 1.6;
   }
 
   /* Adjust buttons for mobile */
   .buttons {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.8rem;
+    flex-wrap: wrap;
   }
 
   button {
-    width: 100%;
-    max-width: 200px;
+    flex: 1;
+    min-width: 120px;
   }
 
   /* Adjust Bible verse section */
   .bible-verse {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
   }
 
   .verse-photo img {
-    max-width: 300px;
+    max-width: 280px;
   }
 
   .verse-text {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .verse-text strong {
+    font-size: 1.1rem;
   }
 
   /* Adjust response text */
   #response {
     font-size: 1.1rem;
+  }
+
+  /* Adjust music button */
+  .music-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
   }
 }
