@@ -178,19 +178,19 @@ h2 {
 }
 
 .photo2 {
-  top: 150px;
+  top: 200px;
   right: 5%;
   animation-delay: 1s;
 }
 
 .photo3 {
-  top: 600px;
+  top: 700px;
   left: 8%;
   animation-delay: 2s;
 }
 
 .photo4 {
-  top: 650px;
+  top: 750px;
   right: 8%;
   animation-delay: 3s;
 }
