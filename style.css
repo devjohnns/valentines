@@ -173,25 +173,25 @@ h2 {
 /* Photo positions */
 .photo1 {
   top: 100px;
-  left: 25%;
+  left: 10%;
   animation-delay: 0s;
 }
 
 .photo2 {
   top: 200px;
-  right: 25%;
+  right: 10%;
   animation-delay: 1s;
 }
 
 .photo3 {
   top: 700px;
-  left: 25%;
+  left: 10%;
   animation-delay: 2s;
 }
 
 .photo4 {
   top: 750px;
-  right: 25%;
+  right: 10%;
   animation-delay: 3s;
 }
 
