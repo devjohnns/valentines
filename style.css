@@ -225,35 +225,6 @@ h2 {
 }
 
 /* ============================================
-   Mobile Photo Gallery
-   ============================================ */
-.mobile-gallery {
-  display: none;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin: 2rem auto;
-  max-width: 400px;
-}
-
-.mobile-photo {
-  text-align: center;
-}
-
-.mobile-photo img {
-  width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(244, 114, 182, 0.3);
-  border: 3px solid #f472b6;
-}
-
-.mobile-photo .photo-caption {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-}
-
-/* ============================================
    Love Letter Card
    ============================================ */
 .card {
@@ -444,11 +415,6 @@ button:hover {
   /* Hide floating photos on mobile to avoid overlap */
   .photo-float {
     display: none;
-  }
-
-  /* Show mobile gallery on mobile */
-  .mobile-gallery {
-    display: grid;
   }
 
   /* Adjust body padding */
